@@ -12,7 +12,7 @@
 
 
 
-## *1. Clasificación IP's Mahyen*
+## *1. Clasificación IP's*
 
 #### Sabemos clasificar las *IP’s privadas VS públicas* 
 
