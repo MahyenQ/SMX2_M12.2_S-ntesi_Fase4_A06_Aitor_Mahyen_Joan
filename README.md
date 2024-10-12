@@ -14,10 +14,10 @@
 
 ## *1. Clasificación IP's Mahyen*
 
-#### - Sabemos clasificar las *IP’s privadas VS públicas* 
+#### Sabemos clasificar las *IP’s privadas VS públicas* 
 
 
-Las IP's públicas son las que pueden salir a Internet. 
+- Las IP's públicas son las que pueden salir a Internet. 
 
 |Clases |IP'S/M |
 |----------|:----------:|
@@ -26,13 +26,28 @@ Las IP's públicas son las que pueden salir a Internet.
 |C|192.186.15.5/24|
 
 
-#### - IP’s privadas son las que se usan en casa, oficinas, empresas etc y no se pueden salir a Internet. 
+- IP’s privadas son las que se usan en casa, oficinas, empresas etc y no se pueden salir a Internet. 
 
 |Clases |IP'S/M |
 |----------|:----------:|
 |A |10.X.X.X|
 |B |172.16.X.X a 173.31.X.X |
 |C|192.168.X.X|
+
+
+- Sabemos clasificar las *IP’s especiales o reservadas*
+
+
+**Id red:** son IP’s que identifican a un conjunto de hosts y tiene todos los bits a 0
+
+**Ejemplo:** 
+
+|Clases |IP'S/M |
+|----------|:----------:|
+|A |112.0.0.0|
+|B |130.92.0.0|
+|C|192.30.15.0|
+
 
 
 
