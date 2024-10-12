@@ -44,9 +44,9 @@
 
 |Clases |IP'S/M |
 |----------|:----------:|
-|A |112.0.0.0|
-|B |130.92.0.0|
-|C|192.30.15.0|
+|A |112.0.0.0/8|
+|B |130.92.0.0/16|
+|C|192.30.15.0/24|
 
 
 - **IP 's de broadcast:** son IP's que se utilizan en el destino de paquetes para que los recogen todos los dispositivos de red. Y tiene todos los bits de hosts a 1
@@ -55,9 +55,9 @@
 
 |Clases |IP'S/M |
 |----------|:----------:|
-|A |112..255.255.255|
-|B |130.7.255.255|
-|C|192.7.7.255|
+|A |112.255.255.255/8|
+|B |130.7.255.255/16|
+|C|192.7.7.255/24|
 
 
 #### Sabemos clasificarlas el protocolo *IPv4* que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
