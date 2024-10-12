@@ -38,7 +38,7 @@
 #### Sabemos clasificar las *IP’s especiales o reservadas*
 
 
-**Id red:** son IP’s que identifican a un conjunto de hosts y tiene todos los bits a 0
+- **Id red:** son IP’s que identifican a un conjunto de hosts y tiene todos los bits a 0
 
 **Ejemplo:** 
 
@@ -48,6 +48,26 @@
 |B |130.92.0.0|
 |C|192.30.15.0|
 
+
+- **IP 's de broadcast:** son IP's que se utilizan en el destino de paquetes para que los recogen todos los dispositivos de red. Y tiene todos los bits de hosts a 1
+
+**Ejemplo:**
+
+|Clases |IP'S/M |
+|----------|:----------:|
+|A |112..255.255.255|
+|B |130.7.255.255|
+|C|192.7.7.255|
+
+
+#### Sabemos clasificarlas el protocolo *IPv4* que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
+
+
+- **Clase A:** Son direcciones que empiezan por *(0-127)* y se utilizan para redes muy grandes, es decir, grandes empresas o proveedores de servicios de Internet que necesitan muchas direcciones IP.
+- **Clase B:** Son direcciones que empiezan por *(128-191)* y se utilizan para redes medianas como universidades o grandes organizaciones que requieren una gran cantidad de direcciones IP.
+- **Clase C:** Son direcciones que empiezan por *(192-223)* y se utilizan para redes pequeñas, es decir, pequeñas empresas que necesitan una cantidad limitada de direcciones IP.
+- **Clase D:** Son direcciones que empiezan por *(224-239)* y se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
+- **Clase E:** Son direcciones que empiezan por *(240-255)* y están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
 
 
 
