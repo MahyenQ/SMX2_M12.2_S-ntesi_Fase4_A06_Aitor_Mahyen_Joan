@@ -71,9 +71,9 @@
 
 ## *2. Que IP's se utilizan para servidores y cuales IPs para puertas de enlace*
 
-#### Sabemos que los servidores utilizan IPs altas, cómo pueden ser 248,250 etc. Aparte de que éstas IPs deben ser estàticas.
+- Sabemos que los servidores utilizan IPs altas, cómo pueden ser 248,250 etc. Aparte de que éstas IPs deben ser estàticas.
 
-#### Sabemos que las IPs de puerta de enlace acaban en X.X.X.1
+- Sabemos que las IPs de puerta de enlace acaban en X.X.X.1
 
 
 
