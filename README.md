@@ -1,6 +1,6 @@
 ##### SMX2_M12.2_Síntesis_Fase4_A06_Aitor_Mahyen_Joan
 
-### Índice
+## Índice
 
 #### Clasificación IP's
 #### ¿Qué IP 's se utilizan para servidores y qué IP' s para puertas de enlace?
@@ -12,7 +12,7 @@
 
 
 
-### **1.Clasificación IP's Mahyen**
+*1.Clasificación IP's Mahyen*
 
 - Sabemos clasificar las **IP’s privadas VS públicas** 
 
