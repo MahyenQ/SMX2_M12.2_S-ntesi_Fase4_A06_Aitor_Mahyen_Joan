@@ -69,6 +69,13 @@
 - **Clase D:** Son direcciones que empiezan por *(224-239)* y se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
 - **Clase E:** Son direcciones que empiezan por *(240-255)* y están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
 
+## *2. Que IP's se utilizan para servidores y cuales IPs para puertas de enlace*
+
+#### Sabemos que los servidores utilizan IPs altas, cómo pueden ser 248,250 etc. Aparte de que éstas IPs deben ser estàticas.
+
+·#### Sabemos que las IPs de puerta de enlace acaban en X.X.X.1
+
+
 
 
 
