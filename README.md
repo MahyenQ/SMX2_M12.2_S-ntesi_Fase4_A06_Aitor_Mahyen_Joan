@@ -2,17 +2,17 @@
 
 ## Índice
 
-#### Clasificación IP's
-#### ¿Qué IP 's se utilizan para servidores y qué IP' s para puertas de enlace?
-#### Funcionalidad de las máscaras de red y cómo se calculan según la clasificación de IP 's
-#### VLAN (qué es y para qué sirve, configuración en Packet Tracer)
-#### Configuración de red en máquinas virtuales. Diferentes configuraciones de los adaptadores de red.
-#### Configuración de red en Windows.
-#### Configuración de red en Linux (en Debian y Ubuntu 24.04)
+#### 1. Clasificación IP's
+#### 2. ¿Qué IP 's se utilizan para servidores y qué IP' s para puertas de enlace?
+#### 3. Funcionalidad de las máscaras de red y cómo se calculan según la clasificación de IP 's
+#### 4. VLAN (qué es y para qué sirve, configuración en Packet Tracer)
+#### 5. Configuración de red en máquinas virtuales. Diferentes configuraciones de los adaptadores de red.
+#### 6. Configuración de red en Windows.
+#### 7. Configuración de red en Linux (en Debian y Ubuntu 24.04)
 
 
 
-## *1.Clasificación IP's Mahyen*
+## *1. Clasificación IP's Mahyen*
 
 #### - Sabemos clasificar las *IP’s privadas VS públicas* 
 
@@ -26,7 +26,7 @@ Las IP's públicas son las que pueden salir a Internet.
 |C|192.186.15.5/24|
 
 
-#### IP’s privadas son las que se usan en casa, oficinas, empresas etc y no se pueden salir a Internet. 
+#### - IP’s privadas son las que se usan en casa, oficinas, empresas etc y no se pueden salir a Internet. 
 
 |Clases |IP'S/M |
 |----------|:----------:|
