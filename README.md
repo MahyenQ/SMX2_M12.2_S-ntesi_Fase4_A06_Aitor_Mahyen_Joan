@@ -35,7 +35,7 @@
 |C|192.168.X.X|
 
 
-- Sabemos clasificar las *IP’s especiales o reservadas*
+#### Sabemos clasificar las *IP’s especiales o reservadas*
 
 
 **Id red:** son IP’s que identifican a un conjunto de hosts y tiene todos los bits a 0
