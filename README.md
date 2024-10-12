@@ -92,6 +92,7 @@
 
 - VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse sólo entre ellos. 
 
+![VLAN](https://github.com/MahyenQ/SMX2_M12.2_S-ntesi_Fase4_A06_Aitor_Mahyen_Joan/blob/main/VLAN.jpg.png)
 
 ## *5. Configuración de red en máquinas virtuales. Diferentes configuraciones de los adaptadores de red*
 
