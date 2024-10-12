@@ -76,6 +76,38 @@
 - Sabemos que las IPs de puerta de enlace acaban en X.X.X.1
 
 
+## *3. Funcionalidad de la máscaras de red y cómo se calculan según la clasificación de IP's*
+
+- Las máscaras de red que son de número 255, y se ponen dependiendo de la clase de IP:
+
+|Clases |IP'S/M |
+|----------|:----------:|
+|A |X.X.X.255|
+|B |X.X.255.255|
+|C|X.255.255.255|
+
+
+## *4. VLAN (qué es y para qué sirve, configuración en Packet Tracer)*
+
+
+- VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse sólo entre ellos. 
+
+
+## *5. Configuración de red en máquinas virtuales. Diferentes configuraciones de los adaptadores de red*
+
+- Sabemos configurar los 4 diferentes tipos de adaptadores que son red NAT, NAT y adaptador puente.
+
+
+## *6. Configuración de redes de Windows*
+
+- Sabemos configurar las IP de manera estática y dinámica. Principalmente en interfaz gráfica, identificar qué adaptador se está usando y que IP, máscara y gateway o DNS está asociado a esa IP.
+
+- Sabemos mirar la MAC de nuestro adaptador de red, ipconfig /all
+
+## *7.  Configuración de red en Linux (en Debian y Ubuntu 22.04)*
+
+- Sabemos usar la configuración en netplan (Debian) y net-tool (ubuntu después de la 16.07) mediante comandos y también cambiar tanto la IP como la máscara, gateway y DNS asociado.
+
 
 
 
