@@ -80,7 +80,7 @@
 
 ## *3. Funcionalidad de la máscaras de red y cómo se calculan según la clasificación de IP's*
 
-- Las máscaras de red que son de número 255, y se ponen dependiendo de la clase de IP:
+- Las máscaras de red hace saber a demás dispositivos que parte de la IP es, que son de número 255, y se ponen dependiendo de la clase de IP:
 
 |Clases |IP'S/M |
 |----------|:----------:|
@@ -92,7 +92,9 @@
 ## *4. VLAN (qué es y para qué sirve, configuración en Packet Tracer)*
 
 
-- VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse sólo entre ellos. 
+- VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse solamente entre ellos, dando igual donde este su posición.
+
+**Ejemplo:**
 
 ![VLAN](https://github.com/MahyenQ/SMX2_M12.2_S-ntesi_Fase4_A06_Aitor_Mahyen_Joan/blob/main/VLAN.jpg.png)
 
