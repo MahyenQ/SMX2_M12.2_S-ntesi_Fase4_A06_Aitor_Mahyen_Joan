@@ -30,11 +30,11 @@
 
 #### Sabemos clasificarlas el protocolo IPv4 que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
 
-- **Clase A**: Son direcciones que empiezan por (0-127) y se utilizan para redes muy grandes, es decir, grandes empresas o proveedores de servicios de Internet que necesitan muchas direcciones IP.
-- **Clase B**: Son direcciones que empiezan por (128-191) y se utilizan para redes medianas como universidades o grandes organizaciones que requieren una gran cantidad de direcciones IP.
-- **Clase C**: Son direcciones que empiezan por (192-223) y se utilizan para redes pequeñas, es decir, pequeñas empresas que necesitan una cantidad limitada de direcciones IP.
-- **Clase D**: Son direcciones que empiezan por (224-239) y se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
-- **Clase E**: Son direcciones que empiezan por (240-255) y están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
+- **Clase A**: se utilizan para redes muy grandes, es decir, grandes empresas o proveedores de servicios de Internet que necesitan muchas direcciones IP.
+- **Clase B**: se utilizan para redes medianas como universidades o grandes organizaciones que requieren una gran cantidad de direcciones IP.
+- **Clase C**: se utilizan para redes pequeñas, es decir, pequeñas empresas que necesitan una cantidad limitada de direcciones IP.
+- **Clase D**: se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
+- **Clase E**: están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
 
 |Clases |Empiezan por |IP'S/M|
 |----------|:----------:|:----------:|
