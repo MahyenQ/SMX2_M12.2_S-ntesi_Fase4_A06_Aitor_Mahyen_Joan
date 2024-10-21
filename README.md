@@ -100,11 +100,32 @@ Las IPs privadas no pueden salir a Internet directamente. En cambio, cuando quer
 |B |X.X.255.255|
 |C|X.255.255.255|
 
+También incluye la subred en la que debe estar y donde le corresponde del host, es una combinación de bits que gracias al sistema que esté conectado (un ordenador, puerta de enlace o enrutador etc.), sabe donde enviar los paquetes tanto dentro o fuera de la subred que este
+Ejemplo:
+
+- **IP:** 192.168.1.1 y **mascara:** 255.255.255.0
+enviará los paquetes a **192.168.1.X**
+para saber una máscara:
+es saber el número de bits, que sería:
+- **IP:** **10.0.0.0** hasta **10.255.255.255**
+que en bits es: **11111111.11111111.11111111.11111111**
+pero pasando los 1 en bits de red y los 0 en bits de host
+seria: **11111111.00000000.00000000.00000000**
+quedaría así la máscara: **255.0.0.0** 
+
 
 ## *4. VLAN (qué es y para qué sirve, configuración en Packet Tracer)*
 
 
-- VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse solamente entre ellos, dando igual donde este su posición.
+- VLAN: Virtual Local Area Network, son ordenadores en un mismo dominio de una LAN para comunicarse solamente entre ellos, dando igual donde este su posición. Por ello es mejor que la LAN, ya que la VLAN contiene varias de estas.
+
+- Hay varias tipos de VLAN:
+
+1. **VLAN nivel 1 por puerto:** que especifica que puertos del switch están conectados
+2. **VLAN nivel 2 por dirección MAC:** asigna el host por el tipo de dirección MAC
+3. **VLAN nivel 3 por tipo de protocolo:** es determinado por un campo, por ejemplo VLAN1 a protocolo IPv4, la VLAN 2 a protocolo IPv6 etc. de demás protocolos.
+4. **VLAN nivel 4 por dirección de subred:** esta son para mapear a las VLAN que pertenezca, que son solo los paquetes y no las estaciones por donde pasan.
+5. **VLAN de niveles superiores:** Crea una VLAN para cada aplicación, para FTP, multimedia, correo electrónico
 
 **Ejemplo:**
 
