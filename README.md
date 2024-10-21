@@ -16,7 +16,7 @@
 
 ## *1. Clasificación IP's*
 
-#### Sabemos clasificar las *IP’s privadas VS públicas* 
+### Sabemos clasificar las *IP’s privadas VS públicas* 
 
 
 - Las IP's públicas son las que pueden salir a Internet y son direcciones únicas que identifican a nuestro dispositivo en Internet. Cuando nos conectamos a Internet, nuestro proveedor de servicios de Internet (ISP) nos asigna una IP pública. Esta dirección permite que otros dispositivos y servidores en Internet nos encuentren y se comuniquen con nosotros. 
@@ -28,7 +28,7 @@
 3. Acceso: Las IPs públicas son necesarias para acceder a servicios en línea, como correos electrónicos, redes sociales y páginas web.
 4. Interacción: Si queremos que otros dispositivos, como un servidor de juegos o una cámara de seguridad, se conecten a nuestra red, entonces necesitamos configurar nuestra IP pública para que puedan hacerlo.
 
-#### Sabemos clasificarlas el protocolo IPv4 que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
+### Sabemos clasificarlas el protocolo IPv4 que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
 
 - **Clase A**: se utilizan para redes muy grandes, es decir, grandes empresas o proveedores de servicios de Internet que necesitan muchas direcciones IP.
 - **Clase B**: se utilizan para redes medianas como universidades o grandes organizaciones que requieren una gran cantidad de direcciones IP.
@@ -59,7 +59,7 @@ Las IPs privadas no pueden salir a Internet directamente. En cambio, cuando quer
 |C|192.168.X.X|
 
 
-#### Sabemos clasificar las *IP’s especiales o reservadas*
+### Sabemos clasificar las *IP’s especiales o reservadas*
 
 
 - **Id red:** son IP’s que identifican a un conjunto de hosts y tiene todos los bits a 0
