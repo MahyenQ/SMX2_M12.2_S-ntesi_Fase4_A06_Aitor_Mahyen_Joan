@@ -87,7 +87,7 @@ Las IPs privadas no pueden salir a Internet directamente. En cambio, cuando quer
 
 - Sabemos que los servidores utilizan IPs altas, cómo pueden ser 248,250 etc. Aparte de que éstas IPs deben ser estàticas.
 
-- Sabemos que las IPs de puerta de enlace acaban en X.X.X.1 y utilizan IP's bajas. Por ejemplo, si tienes una red en casa, la puerta de enlace podría ser 192.168.1.1
+- Sabemos que las IPs de puerta de enlace acaban en X.X.X.1 y utilizan IP's bajas. Por ejemplo, si tenemos una red en casa, la puerta de enlace podría ser 192.168.1.1
 
 
 ## *3. Funcionalidad de la máscaras de red y cómo se calculan según la clasificación de IP's*
