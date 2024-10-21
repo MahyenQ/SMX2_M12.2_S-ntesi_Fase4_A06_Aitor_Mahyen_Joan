@@ -112,18 +112,44 @@ Las IPs privadas no pueden salir a Internet directamente. En cambio, cuando quer
 
 ## *5. Configuración de red en máquinas virtuales. Diferentes configuraciones de los adaptadores de red*
 
-- Sabemos configurar los 4 diferentes tipos de adaptadores que son red NAT, NAT y adaptador puente.
+- Sabemos configurar los 4 diferentes tipos de adaptadores que són red NAT, Red interna, adaptador puente y Red Nat.
+
+**NAT:** convierte una IP privada en pública y nos deja salida a internet, por defecto nos da la 10.0.2.15 y la siguiente seria 10.0.2.16
+
+**Red interna:** la IP de la máquina virtual es de la misma red que la física pero sólo se pueden comunicar entre máquinas virtuales y no tiene acceso a internet
+
+**Adaptador puente:** se le da la siguiente IP de la red de la máquina física, es decir si la máquina física tiene la 192.168.22.12 se le asigna la 192.168.22.13
+
+**RED NAT:** es similar a NAT con la diferencia que las máquinas no se pueden contactar entre sí, aparte la asignación de IP 10.0.2.15,10.0.3.15 etc..
 
 
 ## *6. Configuración de redes de Windows*
 
-- Sabemos configurar las IP de manera estática y dinámica. Principalmente en interfaz gráfica, identificar qué adaptador se está usando y que IP, máscara y gateway o DNS está asociado a esa IP.
+- Sabemos configurar las IP de manera estática y dinámica. Principalmente en interfaz gráfica, identificar qué adaptador se está usando y que IP,máscara y gateway o DNS está asociado a esa IP.
+
+- Sabemos mirar la MAC de nuestro adaptador de red, **ipconfig /all**
+
+- Sabemos ver nuestros diferentes adaptadores y si son de virtualbox, por cable o inalámbricos mediante panel de control>centro de redes>cambiar configuracion del adaptador
+
 
 - Sabemos mirar la MAC de nuestro adaptador de red, ipconfig /all
 
 ## *7.  Configuración de red en Linux (en Debian y Ubuntu 22.04)*
 
-- Sabemos usar la configuración en netplan (Debian) y net-tool (ubuntu después de la 16.07) mediante comandos y también cambiar tanto la IP como la máscara, gateway y DNS asociado.
+- Sabemos usar la configuración en netplan (Debian) y net-tool (ubuntu después de la 16.07) mediante comandos y también cambiar tanto la IP cómo la máscara, gateway y DNS asociado. 
+
+- **Debian:** en la versión anterior, utilizamos el net-tools path /etc/network/interfaces mediante el editor nano para poder cambiar el archivo de configuración de red que nos sirve para cambiar manualmente la IP
+
+![nano](https://github.com/MahyenQ/SMX2_M12.2_S-ntesi_Fase4_A06_Aitor_Mahyen_Joan/blob/main/GNU%20nano.jpg.png)
+
+- **Ubuntu:** para las versiones más actuales usaremos el netplan con el path /etc/netplan/01-**network-manager-all.yaml** también cambiaríamos la IP mediante el editor nano  *(El elemento subrayado puede cambiar pero por defecto se genera ese nombre)*
+
+![Editor IP](https://github.com/MahyenQ/SMX2_M12.2_S-ntesi_Fase4_A06_Aitor_Mahyen_Joan/blob/main/IP%20mediante%20editor.jpg.png)
+
+![Ubuntu](https://github.com/MahyenQ/SMX2_M12.2_S-ntesi_Fase4_A06_Aitor_Mahyen_Joan/blob/main/Ubuntu.jpg.png)
+
+
+
 
 
 
