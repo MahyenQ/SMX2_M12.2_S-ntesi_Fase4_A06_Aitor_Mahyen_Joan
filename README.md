@@ -36,7 +36,7 @@
 - **Clase D**: se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
 - **Clase E**: están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
 
-|Clases |Empiezan por |IP'S/M|
+|Clases |Rango |IP'S/M|
 |----------|:----------:|:----------:|
 |A |0 a 127|29.15.10.5/8|
 |B |128 a 191|133.11.24.3/16|
