@@ -19,16 +19,38 @@
 #### Sabemos clasificar las *IP’s privadas VS públicas* 
 
 
-- Las IP's públicas son las que pueden salir a Internet. 
+- Las IP's públicas son las que pueden salir a Internet y son direcciones únicas que identifican a nuestro dispositivo en Internet. Cuando nos conectamos a Internet, nuestro proveedor de servicios de Internet (ISP) nos asigna una IP pública. Esta dirección permite que otros dispositivos y servidores en Internet nos encuentren y se comuniquen con nosotros. 
 
-|Clases |IP'S/M |
-|----------|:----------:|
-|A |29.15.10.5/8|
-|B |133.11.24.3/16|
-|C|192.186.15.5/24|
+**Algunos puntos clave:**
+
+1. Identificación: Cada dispositivo que se conecta a Internet necesita una IP pública para ser identificado. Sin ella, no podríamos enviar ni recibir información. 
+2. Comunicación: Cuando visitamos un sitio web, nuestra IP pública es la que se muestra al servidor del sitio lo le permite saber a dónde enviar la información que solicitamos.
+3. Acceso: Las IPs públicas son necesarias para acceder a servicios en línea, como correos electrónicos, redes sociales y páginas web.
+4. Interacción: Si queremos que otros dispositivos, como un servidor de juegos o una cámara de seguridad, se conecten a nuestra red, entonces necesitamos configurar nuestra IP pública para que puedan hacerlo.
+
+#### Sabemos clasificarlas el protocolo IPv4 que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
+
+- **Clase A**: Son direcciones que empiezan por (0-127) y se utilizan para redes muy grandes, es decir, grandes empresas o proveedores de servicios de Internet que necesitan muchas direcciones IP.
+- **Clase B**: Son direcciones que empiezan por (128-191) y se utilizan para redes medianas como universidades o grandes organizaciones que requieren una gran cantidad de direcciones IP.
+- **Clase C**: Son direcciones que empiezan por (192-223) y se utilizan para redes pequeñas, es decir, pequeñas empresas que necesitan una cantidad limitada de direcciones IP.
+- **Clase D**: Son direcciones que empiezan por (224-239) y se utilizan para multicast para enviar datos a varios destinatarios (grupos) al mismo tiempo
+- **Clase E**: Son direcciones que empiezan por (240-255) y están reservadas para investigación y desarrollo, no se utilizan en redes comunes.
+
+|Clases |Empiezan por |IP'S/M|
+|----------|:----------:|:----------:|
+|A |0 a 127|29.15.10.5/8|
+|B |128 a 191|133.11.24.3/16|
+|C|192 a 223|192.186.15.5/24|
+|D|224 a 239|224.220.225.238|
+|E|240 a 255|240.241.250.253|
 
 
-- IP’s privadas son las que se usan en casa, oficinas, empresas etc y no se pueden salir a Internet. 
+- Las IPs privadas son direcciones que se utilizan en redes locales, como en casas, oficinas o empresas. Estas direcciones son diferentes de las IPs públicas, que son las que se usan para conectarse a Internet.
+
+**Por ejemplo**: si tenemos varios dispositivos en nuestra casa, como nuestra computadora, el teléfono y la impresora, cada uno tendrá una dirección IP privada para poder comunicarse entre ellos.
+
+Las IPs privadas no pueden salir a Internet directamente. En cambio, cuando queremos acceder a Internet, nuestro router utiliza una IP pública para comunicarse con el mundo exterior. Así que, aunque nuestros dispositivos tengan IPs privadas, pueden navegar por Internet gracias a esa IP pública que el router tiene.
+
 
 |Clases |IP'S/M |
 |----------|:----------:|
@@ -59,17 +81,7 @@
 |----------|:----------:|
 |A |112.255.255.255/8|
 |B |130.7.255.255/16|
-|C|192.7.7.255/24|
-
-
-#### Sabemos clasificarlas el protocolo *IPv4* que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
-
-
-- **Clase A:** Son direcciones que empiezan por *(0-127)* 
-- **Clase B:** Son direcciones que empiezan por *(128-191)* 
-- **Clase C:** Son direcciones que empiezan por *(192-223)* 
-- **Clase D:** Son direcciones que empiezan por *(224-239)*
-- **Clase E:** Son direcciones que empiezan por *(240-255)* 
+|C|192.7.7.255/24| 
 
 ## *2. Que IP's se utilizan para servidores y cuales IPs para puertas de enlace*
 
