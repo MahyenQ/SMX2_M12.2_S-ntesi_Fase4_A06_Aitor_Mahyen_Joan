@@ -23,10 +23,10 @@
 
 **Algunos puntos clave:**
 
-1. Identificación: Cada dispositivo que se conecta a Internet necesita una IP pública para ser identificado. Sin ella, no podríamos enviar ni recibir información. 
-2. Comunicación: Cuando visitamos un sitio web, nuestra IP pública es la que se muestra al servidor del sitio lo le permite saber a dónde enviar la información que solicitamos.
-3. Acceso: Las IPs públicas son necesarias para acceder a servicios en línea, como correos electrónicos, redes sociales y páginas web.
-4. Interacción: Si queremos que otros dispositivos, como un servidor de juegos o una cámara de seguridad, se conecten a nuestra red, entonces necesitamos configurar nuestra IP pública para que puedan hacerlo.
+1. **Identificación:** Cada dispositivo que se conecta a Internet necesita una IP pública para ser identificado. Sin ella, no podríamos enviar ni recibir información. 
+2. **Comunicación:** Cuando visitamos un sitio web, nuestra IP pública es la que se muestra al servidor del sitio lo le permite saber a dónde enviar la información que solicitamos.
+3. **Acceso:** Las IPs públicas son necesarias para acceder a servicios en línea, como correos electrónicos, redes sociales y páginas web.
+4. **Interacción:** Si queremos que otros dispositivos, como un servidor de juegos o una cámara de seguridad, se conecten a nuestra red, entonces necesitamos configurar nuestra IP pública para que puedan hacerlo.
 
 ### Sabemos clasificarlas el protocolo IPv4 que permite un número limitado de direcciones únicas y dentro de IPv4, las direcciones IP se dividen en clases que son:
 
